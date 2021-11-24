@@ -1,5 +1,7 @@
 # Linux-commands
 
+# File commands
+
 1. `ls` - Director listing
 2. `ls-al`- Formatted listing with hidden files
 3. `ls -lt` Sorting the formatted listing by time modification
