@@ -29,5 +29,12 @@
 6. `tar xjf file.tar.bz2` - Extract a tar using Bzip2
 7. `gzip file` - Compresses file and renames it to file.gz
 8. `gzip -d file.gz` -Decompresses file.gz back to file
-9. 
-10. 
+
+# Searching
+1. `grep pattern file` - Search for pattern in file
+2. `grep -r pattern dir` - Search recursively for  pattern in dir
+3. `command | grep pattern` - Search pattern in the output of a command
+4. `locate file` - Find all instances of file
+5. `find .-name filename` - Searches in the current directory (represented by a period) and below it, for files and directories with names starting with filename
+6. `pgrep pattern` - searches for all the named processes, that matches with the pattern and, by default, returns their ID
+
