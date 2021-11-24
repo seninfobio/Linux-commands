@@ -1,5 +1,7 @@
 # Linux-commands
 
+**vi/.sh files edit/delete** -  `:1$d`
+
 # File commands
 
 1. `ls` - Director listing
@@ -15,8 +17,10 @@
 11. `tail file` - outpu the  last 10 lines
 12. `tail -f file` - output the contents of files as it grows, starting with the  last 10 lines
 13. `touch file` - create or update file
-14. ` rm file` - Deleting the file
-15. 
+14. ` rm file` - Deleting the file **(rm -rf files)
+15.  `du-sh (filename)` - memory usage
+16.  `kill PID` - To kill the processing/running file
+17.  
 
 
 # Compression
@@ -31,7 +35,7 @@
 8. `gzip -d file.gz` -Decompresses file.gz back to file
 
 # Searching
-1. `grep pattern file` - Search for pattern in file
+1. `grep pattern file` - Search for pattern in file **(grep "^>" filename.fasta | wc -l )**
 2. `grep -r pattern dir` - Search recursively for  pattern in dir
 3. `command | grep pattern` - Search pattern in the output of a command
 4. `locate file` - Find all instances of file
