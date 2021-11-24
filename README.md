@@ -23,7 +23,7 @@
 
 1. `tar cf file.tar file` - create tar named file.tar containing file
 2. `tar xf file.tar` - Extract the files from file.tar
-3. `tar czf file.tar.gz files` - _create a tar with Gzip compression_
+3. `tar czf file.tar.gz files` -create a tar with Gzip compression-
 4. `tar xzf file.tar.gz` - Extract a tar using Gzip
 5. `tar cjf file.tar.bz2` - Create tar with Bzip2 compression
 6. `tar xjf file.tar.bz2` - Extract a tar using Bzip2
