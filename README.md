@@ -11,7 +11,7 @@
 5. `cd` - change to home directory
 6. `pwd` - show current working directory
 7. `mkdir dir` - creating a directory dir
-8. `cat >file` - places the standard input into the file
+8. `cat >file eg. cat 1.txt 2.txt 3.txt > 0.txt` - places the standard input into the file
 9. `more files` - output the contents of the file
 10. `head file` - output the first 10 lines of the file
 11. `tail file` - outpu the  last 10 lines
