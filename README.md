@@ -23,7 +23,17 @@
 14. ` rm file` - Deleting the file **(rm -rf files)
 15.  `du-sh (filename)` - memory usage
 16.  `kill PID` - To kill the processing/running file
-17.  
+17.  `ctrl+o`	save file
+18.  `ctrl+x`	close file
+19.  `alt+\`	go to beginning of the file
+20.  `alt+/`	go to end of the file
+21.  `ctrl+a`	go to start of the line
+22.  `ctrl+e`	go to end of the line
+23.  `ctrl+c`	show line number
+24.  `ctrl+_`	go to line number
+25.  `ctrl+w`	find matching word
+26.  `alt+w`	find next match
+27.  `ctrl+\`	find and replace
 
 
 # Compression
