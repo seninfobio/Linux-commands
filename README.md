@@ -41,4 +41,7 @@
 4. `locate file` - Find all instances of file
 5. `find .-name filename` - Searches in the current directory (represented by a period) and below it, for files and directories with names starting with filename
 6. `pgrep pattern` - searches for all the named processes, that matches with the pattern and, by default, returns their ID
+7. `grep ">" FILENAME > HEADERFILE.txt`  
+8. `grep ">" FILENAME | less`  
+9. `grep ">" AT_cDNA.fa | less` -you can list all the headers (description lines) for the sequences using grep. Simply search for > and grep will list all the description lines.		
 
